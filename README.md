@@ -11,10 +11,13 @@ Za lokalno pokretanje aplikacije na računalu potrebno je izvršiti sljedeće ko
 git clone https://github.com/eivelic/streamlit-energy-forecasting.git
 ```
 ### Otvorite kloniranu mapu streamlit-energy-forecasting unutar VS Code-a, otvorite novi terminal (engl. New Terminal) i pokrenite sljedeće naredbe:
-```
+
 # Instalacija svih potrebnih biblioteka
+```
 pip install streamlit tensorflow scikit-learn pandas numpy matplotlib seaborn
+```
 
 # Pokretanje Streamlit aplikacije
+```
 streamlit run app.py
 ```
